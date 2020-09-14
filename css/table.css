@@ -1,0 +1,188 @@
+#table {
+  margin: 3%;
+}
+@media (min-width: 48em) {
+  #table {
+    margin: 2%;
+  }
+}
+@media (min-width: 75em) {
+  #table {
+    margin: 2em auto;
+    max-width: 75em;
+  }
+}
+#coordinates-table {
+  width: 100%;
+  margin-bottom: 1.5em;
+  border-spacing: 0;
+}
+@media (min-width: 48em) {
+  #coordinates-table {
+    font-size: 0.9em;
+  }
+}
+@media (min-width: 62em) {
+  #coordinates-table {
+    font-size: 1em;
+  }
+}
+#coordinates-table thead {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+@media (min-width: 48em) {
+  #coordinates-table thead {
+    position: relative;
+    clip: auto;
+    height: auto;
+    width: auto;
+    overflow: auto;
+  }
+}
+#coordinates-table thead th {
+  background-color: #00AEAF;
+  border: 1px solid #00AEAF;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+}
+#coordinates-table thead th:first-of-type {
+  text-align: left;
+}
+#coordinates-table tbody, #coordinates-table tr, #coordinates-table th, #coordinates-table td {
+  display: block;
+  padding: 0;
+  text-align: left;
+  white-space: normal;
+}
+@media (min-width: 48em) {
+  #coordinates-table tr {
+    display: table-row;
+  }
+}
+#coordinates-table th, #coordinates-table td {
+  padding: 0.5em;
+  vertical-align: middle;
+}
+@media (min-width: 30em) {
+  #coordinates-table th, #coordinates-table td {
+    padding: 0.75em 0.5em;
+  }
+}
+@media (min-width: 48em) {
+  #coordinates-table th, #coordinates-table td {
+    display: table-cell;
+    padding: 0.5em;
+  }
+}
+@media (min-width: 62em) {
+  #coordinates-table th, #coordinates-table td {
+    padding: 0.75em 0.5em;
+  }
+}
+@media (min-width: 75em) {
+  #coordinates-table th, #coordinates-table td {
+    padding: 0.75em;
+  }
+}
+#coordinates-table caption {
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+@media (min-width: 48em) {
+  #coordinates-table caption {
+    font-size: 1.5em;
+  }
+}
+#coordinates-table tfoot {
+  font-size: 0.8em;
+  font-style: italic;
+}
+@media (min-width: 62em) {
+  #coordinates-table tfoot {
+    font-size: 0.9em;
+  }
+}
+@media (min-width: 48em) {
+  #coordinates-table tbody {
+    display: table-row-group;
+  }
+}
+#coordinates-table tbody tr {
+  margin-bottom: 1em;
+}
+@media (min-width: 48em) {
+  #coordinates-table tbody tr {
+    display: table-row;
+    border-width: 1px;
+  }
+}
+#coordinates-table tbody tr:last-of-type {
+  margin-bottom: 0;
+}
+@media (min-width: 48em) {
+  #coordinates-table tbody tr:nth-of-type(even) {
+    background-color: rgba(94, 93, 82, 0.1);
+  }
+}
+#coordinates-table tbody th[scope="row"] {
+  background-color: #00AEAF;
+  color: white;
+}
+@media (min-width: 30em) {
+  #coordinates-table tbody th[scope="row"] {
+    border-left: 1px solid #00AEAF;
+    border-bottom: 1px solid #00AEAF;
+  }
+}
+@media (min-width: 48em) {
+  #coordinates-table tbody th[scope="row"] {
+    background-color: transparent;
+    color: rgba(94, 93, 82, 1);
+    text-align: left;
+  }
+}
+#coordinates-table tbody td {
+  text-align: right;
+}
+@media (min-width: 48em) {
+  #coordinates-table tbody td {
+    border-left: 1px solid #00AEAF;
+    border-bottom: 1px solid #00AEAF;
+    text-align: center;
+  }
+}
+@media (min-width: 48em) {
+  #coordinates-table tbody td:last-of-type {
+    border-right: 1px solid #00AEAF;
+  }
+}
+#coordinates-table tbody td[data-type="currency"] {
+  text-align: right;
+}
+#coordinates-table tbody td[data-title]:before {
+  content: attr(data-title);
+  float: left;
+  font-size: 0.8em;
+  color: rgba(94, 93, 82, 0.75);
+}
+@media (min-width: 30em) {
+  #coordinates-table tbody td[data-title]:before {
+    font-size: 0.9em;
+  }
+}
+@media (min-width: 48em) {
+  #coordinates-table tbody td[data-title]:before {
+    content: none;
+  }
+}
+ 
